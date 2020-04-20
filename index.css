@@ -221,12 +221,14 @@ li{
 		margin: 20px auto;
 		perspective: 700px;
 	}
+	.minbox{
+		left:50px;
+		top:50px;
+	}
 	.maxbox{
 		width: 400px;
 		height: 400px;
 		position: absolute;
-		/* left: -20px;
-		top: -20px; */
 		transform-style: preserve-3d;
 	}
 	.maxbox li{
@@ -235,8 +237,8 @@ li{
 		background: #fff;
 		border:1px solid #ccc;
 		position: absolute;
-		/* left: 50px;
-		top: 50px; */
+		left: 25px;
+		top: 25px;
 		opacity: 0.2;
 		transition:all 1s ease;
 		background-size: 100% 100%;
@@ -271,33 +273,7 @@ li{
 		transform:rotateY(90deg) translateZ(75px);
 		background-size: 100% 100%;
 	}
-	.box:hover ol li{
-		width: 200px;
-		height: 200px;
-		opacity: 0.8;
-		left: -25px;
-		top: -25px;
-	}
-	.box:hover ol li:nth-child(1){
-		transform:translateZ(150px);
-	}
-	.box:hover ol li:nth-child(2){
-		transform:rotateX(180deg) rotate(180deg) translateZ(150px);
-	}
-	.box:hover ol li:nth-child(3){
-		transform:rotateX(-90deg) translateZ(150px);
-	}
-	.box:hover ol li:nth-child(4){
-		transform:rotateX(90deg) translateZ(150px);
-	}
-	.box:hover ol li:nth-child(5){
-		transform:rotateY(-90deg) translateZ(150px);
-	}
-	.box:hover ol li:nth-child(6){
-		transform:rotateY(90deg) translateZ(150px);
-	}
 }
-
 
 
 @keyframes move{
