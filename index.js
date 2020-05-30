@@ -1,3 +1,26 @@
+    function initHeart() {
+        var box = document.getElementsByClassName('textCon')[0];
+        var count = 20
+        for (var i = 0; i < count; i++) {
+            var size = parseInt(ran(60, 120) / 10);
+            var ele = document.createElement('div');
+            ele.classList.add('item');
+            ele.style.width = size + 'px';
+            ele.style.height = size + 'px';
+            ele.style.left = ran(0, 95) + '%';
+            ele.style.top = ran(20, 80) + '%';
+            ele.style.animationDelay = ran(0, 30) / 10 + 's';
+            box.appendChild(ele);
+        }
+    }
+    function ran(min, max) {
+        min = parseInt(min);
+        max = parseInt(max);
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+    initHeart();
+
+
 function initImg() {
     const imgBox = document.getElementsByClassName("imgBox")[0]
     let index = 30
@@ -20,7 +43,9 @@ initImg();
 bindEvent()
 
 function bindEvent() {
-    const btn = document.getElementsByClassName("btn")[0]
+    // const btn = document.getElementsByClassName("btn")[0]
+    const btn = document.getElementsByClassName("bigheart")[0]
+
     btn.onclick = function (e) {
         let imgs = document.getElementsByTagName("img")
         for (let i = 0; i < imgs.length; i++) {
@@ -28,8 +53,9 @@ function bindEvent() {
                 imgs[i].style.animation = "small 2s linear forwards"
             }, Math.random() * 1000);
         }
-        let btn = document.getElementsByClassName("btn")[0]
         btn.style.animation = 'display 4s linear forwards'
+        var box = document.getElementsByClassName('textCon')[0];
+        box.style.animation = 'display 4s linear forwards'
         setTimeout(() => {
             showCircle()
         }, 3000);
@@ -101,3 +127,6 @@ function displayImg() {
         }
     }, 2000);
 }
+
+
+
