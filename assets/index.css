@@ -35,7 +35,7 @@ body{
 /* .wrapper .btn{
     width: 158px;
     height: 63px;
-    background-image: url("./img/btnImg.png");
+    background-image: url("../img/btnImg.png");
     background-size: 100% 100%;
     margin: 10px auto;
     cursor: pointer;
@@ -203,28 +203,28 @@ li{
 	top:0;
 }
 .minbox li:nth-child(1){
-	background: url(./img/01.png) no-repeat 0 0;
+	background: url(../img/01.png) no-repeat 0 0;
 	transform:translateZ(50px);
 }
 .minbox li:nth-child(2){
-	background: url(./img/02.png) no-repeat 0 0;
+	background: url(../img/02.png) no-repeat 0 0;
 	transform:rotateX(180deg) rotate(180deg) translateZ(50px);
 }
 .minbox li:nth-child(3){
-	background: url(./img/03.png) no-repeat 0 0;
+	background: url(../img/03.png) no-repeat 0 0;
 	transform:rotateX(-90deg) translateZ(50px);
 }
 .minbox li:nth-child(4){
-	background: url(./img/04.png) no-repeat 0 0;
+	background: url(../img/04.png) no-repeat 0 0;
 	transform:rotateX(90deg) translateZ(50px);
 }
 .minbox li:nth-child(5){
-	background: url(./img/05.png) no-repeat 0 0;
+	background: url(../img/05.png) no-repeat 0 0;
 	transform:rotateY(-90deg) translateZ(50px);
 	
 }
 .minbox li:nth-child(6){
-	background: url(./img/06.png) no-repeat 0 0;
+	background: url(../img/06.png) no-repeat 0 0;
 	transform:rotateY(90deg) translateZ(50px);
 }
 /* pc端 */
@@ -254,32 +254,32 @@ li{
 		background-size: 100% 100%;
 	}
 	.maxbox li:nth-child(1){
-		background: url(./img/1.png) no-repeat;
+		background: url(../img/1.png) no-repeat;
 		transform:translateZ(100px);
 		background-size: 100% 100%;
 	}
 	.maxbox li:nth-child(2){
-		background: url(./img/2.png) no-repeat;
+		background: url(../img/2.png) no-repeat;
 		transform:rotateX(180deg) rotate(180deg) translateZ(100px);
 		background-size: 100% 100%;
 	}
 	.maxbox li:nth-child(3){
-		background: url(./img/3.png) no-repeat;
+		background: url(../img/3.png) no-repeat;
 		transform:rotateX(-90deg) translateZ(100px);
 		background-size: 100% 100%;
 	}
 	.maxbox li:nth-child(4){
-		background: url(./img/4.png) no-repeat;
+		background: url(../img/4.png) no-repeat;
 		transform:rotateX(90deg) translateZ(100px);
 		background-size: 100% 100%;
 	}
 	.maxbox li:nth-child(5){
-		background: url(./img/5.png) no-repeat;
+		background: url(../img/5.png) no-repeat;
 		transform:rotateY(-90deg) translateZ(100px);
 		background-size: 100% 100%;
 	}
 	.maxbox li:nth-child(6){
-		background: url(./img/6.png) no-repeat;
+		background: url(../img/6.png) no-repeat;
 		transform:rotateY(90deg) translateZ(100px);
 		background-size: 100% 100%;
 	}
@@ -340,32 +340,32 @@ li{
 		background-size: 100% 100%;
 	}
 	.maxbox li:nth-child(1){
-		background: url(./img/1.png) no-repeat;
+		background: url(../img/1.png) no-repeat;
 		transform:translateZ(75px);
 		background-size: 100% 100%;
 	}
 	.maxbox li:nth-child(2){
-		background: url(./img/2.png) no-repeat;
+		background: url(../img/2.png) no-repeat;
 		transform:rotateX(180deg) rotate(180deg) translateZ(75px);
 		background-size: 100% 100%;
 	}
 	.maxbox li:nth-child(3){
-		background: url(./img/3.png) no-repeat;
+		background: url(../img/3.png) no-repeat;
 		transform:rotateX(-90deg) translateZ(75px);
 		background-size: 100% 100%;
 	}
 	.maxbox li:nth-child(4){
-		background: url(./img/4.png) no-repeat;
+		background: url(../img/4.png) no-repeat;
 		transform:rotateX(90deg) translateZ(75px);
 		background-size: 100% 100%;
 	}
 	.maxbox li:nth-child(5){
-		background: url(./img/5.png) no-repeat;
+		background: url(../img/5.png) no-repeat;
 		transform:rotateY(-90deg) translateZ(75px);
 		background-size: 100% 100%;
 	}
 	.maxbox li:nth-child(6){
-		background: url(./img/6.png) no-repeat;
+		background: url(../img/6.png) no-repeat;
 		transform:rotateY(90deg) translateZ(75px);
 		background-size: 100% 100%;
 	}
